@@ -28,7 +28,8 @@ geterrmessage()
 packageVersion("stopwords")
 
 
-renv::install("stopwords@2.1")
+#renv::install("stopwords@2.1")
 
+renv::snapshot()
 
 #renv::clean()
